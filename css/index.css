@@ -1,0 +1,1569 @@
+.onlyie {
+    background: red;
+    color: #fff;
+    text-align: center
+}
+
+.imgsvg {
+    border: none !important;
+    width: 0 !important;
+    height: 0 !important
+}
+
+.iehide, .isru {
+    display: none
+}
+
+.download-bot .btn, .download .btn {
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    border-radius: 2.5rem;
+    behavior: url(../assets/PIE-1.0.0/PIE.htc);
+    font-size: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 0 15px 25px 0 rgba(13, 5, 9, .2)
+}
+
+.download-bot .btn:hover, .download .btn:hover {
+    box-shadow: 0 15px 25px 0 rgba(13, 5, 9, .4)
+}
+
+.download-bot .btn > span, .download .btn > span {
+    display: inline-block;
+    padding-left: 6px;
+    padding-left: .3rem
+}
+
+.download-bot .btn.btn-down, .download .btn.btn-down {
+    background: #fff;
+    background: linear-gradient(180deg, #fff, #eee);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffffff, endcolorstr=#eeeeee, gradientType=0);
+    width: 50%;
+    margin-left: 15%
+}
+
+@-webkit-keyframes tobig {
+    0% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    to {
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
+    }
+}
+
+@keyframes tobig {
+    0% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
+    }
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    to {
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
+    }
+}
+
+@-webkit-keyframes tocircle {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes tocircle {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+.htmlheight {
+    height: 100%
+}
+
+.tabmain {
+    width: 100%;
+    background: #f2f7fb
+}
+
+.tabcontent {
+    margin-top: 20px;
+    margin-top: 1rem;
+    height: 600px;
+    height: 30rem;
+    padding-left: 100px;
+    padding-left: 5rem
+}
+
+.tabcontent.en {
+    padding-left: 40px;
+    padding-left: 2rem
+}
+
+.tabcontent .titleshow {
+    padding-top: 16px;
+    padding-top: .8rem
+}
+
+.tabcontent h1 {
+    font-size: 46px;
+    font-size: 2.3rem;
+    letter-spacing: 4px;
+    letter-spacing: .15rem;
+    color: #fff;
+    font-weight: 700;
+    margin: 26px 0 50px -15px;
+    margin: 1.3rem 0 2.5rem -15px
+}
+
+.tabcontent h1.tw {
+    margin-left: -50px;
+    margin-left: -2.5rem
+}
+
+.tabcontent h1.en {
+    font-weight: 700;
+    font-size: 40px;
+    font-size: 2rem;
+    letter-spacing: 0
+}
+
+.tabcontent h1.ru {
+    font-size: 18px;
+    font-size: 1.9rem;
+    letter-spacing: 0;
+    margin-left: -50px
+}
+
+.tabcontent .circle {
+    margin-bottom: 60px;
+    margin-bottom: 3rem
+}
+
+.tabcontent .circle.en {
+    margin-left: 10px;
+    margin-left: .5rem
+}
+
+.tabcontent .circle.ru {
+    margin-left: -8px
+}
+
+.tabcontent .circle li {
+    float: left;
+    color: #fff;
+    width: 120px;
+    width: 6rem;
+    height: 120px;
+    height: 6rem;
+    border: 3px solid #fff;
+    border-radius: 60px;
+    border-radius: 50%;
+    behavior: url(../assets/PIE-1.0.0/PIE.htc);
+    text-align: center;
+    padding-top: 8px;
+    padding-top: .4rem;
+    margin-right: 24px;
+    margin-right: 1.2rem;
+    font-size: 20px;
+    font-size: 1.2rem
+}
+
+.tabcontent .circle li.ru {
+    width: 130px;
+    width: 6.5rem;
+    height: 130px;
+    height: 6.5rem
+}
+
+.tabcontent .circle li.ru span {
+    font-size: 14px;
+    font-size: .7rem;
+    word-wrap: break-word
+}
+
+.tabcontent .circle li strong {
+    font-size: 34px
+}
+
+.tabcontent .circle li span {
+    font-size: 16px;
+    font-size: .8rem;
+    display: block
+}
+
+.tabcontent .circle li.en span {
+    font-size: 14px;
+    font-size: .7rem
+}
+
+.tabcontent .circle li:first-child strong {
+    font-size: 44px;
+    font-size: 2.2rem
+}
+
+.tabcontent .circle li:first-child.en {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.tabcontent .circle li:first-child.en span {
+    font-size: 13px;
+    font-size: .65rem
+}
+
+.tabcontent .circle li:nth-child(2) {
+    padding-top: .6rem;
+    position: relative;
+    top: 2px;
+    top: .1rem
+}
+
+.tabcontent .circle li:nth-child(2) strong {
+    font-size: 36px;
+    font-size: 1.8rem
+}
+
+.tabcontent .circle li:nth-child(2) span {
+    position: relative;
+    top: 6px;
+    top: .33rem
+}
+
+.tabcontent .circle li:nth-child(3) {
+    padding-top: 18px;
+    padding-top: .9rem;
+    position: relative;
+    top: 3px;
+    top: .15rem
+}
+
+.tabcontent .circle li:nth-child(3) strong {
+    font-size: 30px;
+    font-size: 1.5rem
+}
+
+.tabcontent .circle li:nth-child(3) span {
+    position: relative;
+    top: 8px;
+    top: .43rem
+}
+
+.tabcontent .circle li:nth-child(3).en {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.tabcontent .circle.en li {
+    margin-left: 24px;
+    margin-left: 1.2rem;
+    margin-right: 24px;
+    margin-right: 1.2rem
+}
+
+.tabcontent .appShow {
+    width: 100%;
+    height: 520px;
+    height: 26rem
+}
+
+.tabcontent .appShow > svg {
+    width: 100%;
+    height: 90%;
+    -webkit-transform: translateZ(0)
+}
+
+.tabcontent .appShow > svg .blingcircle {
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation: tobig 2s infinite linear;
+    animation: tobig 2s infinite linear
+}
+
+.tabcontent .appShow > svg .ellip .ellipbox {
+    -webkit-transform: translateX(-.3%);
+    transform: translateX(-.3%)
+}
+
+.tabcontent .appShow > svg .ellip .ellipbox .ellipop {
+    -webkit-transform-origin: 203pt 202pt;
+    transform-origin: 203pt 202pt;
+    opacity: .3;
+    filter: alpha(opacity=30)
+}
+
+.tabcontent .appShow > svg .ellip .ellipbox .ellipop.ellipop1 {
+    -webkit-animation: tocircle 4s infinite linear;
+    animation: tocircle 4s infinite linear
+}
+
+.tabcontent .appShow > svg .ellip .ellipbox .ellipop.ellipop2 {
+    -webkit-transform: rotate(135deg) translate(-1.2%, -1%);
+    transform: rotate(135deg) translate(-1.2%, -1%);
+    -webkit-animation: tocircle 2s infinite linear;
+    animation: tocircle 2s infinite linear
+}
+
+.tabcontent .appShow > svg .ellip .ellipbox .ellipop.ellipop3 {
+    -webkit-transform: rotate(75deg) translate(1.5%, -1.2%);
+    transform: rotate(75deg) translate(1.5%, -1.2%);
+    -webkit-animation: tocircle 5s infinite linear;
+    animation: tocircle 5s infinite linear
+}
+
+.tabcontent .appShow > svg .ellip .elliptop {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.tabcontent .isru {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.tabcontent .isru > img {
+    width: 70%;
+    margin-bottom: 10px;
+    margin-bottom: .5rem
+}
+
+.tabcontent .isru h3, .tabcontent .isru p {
+    color: #fff;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-bottom: .5rem;
+    width: 100%
+}
+
+.tabcontent .isru h3 {
+    font-size: 26px;
+    font-size: 1.3rem
+}
+
+.tabcontent .isru p {
+    font-weight: 200;
+    font-size: 15px;
+    font-size: .75rem
+}
+
+.tabcontent .isru .vktel {
+    width: 100%
+}
+
+.tabcontent .isru .vktel a {
+    color: #fff;
+    border: none;
+    background: none;
+    display: inline-block;
+    font-size: 20px;
+    font-size: 1rem
+}
+
+.tabcontent .isru .vktel a img {
+    width: 14px;
+    width: 1.2rem;
+    margin-right: 6px;
+    margin-right: .3rem
+}
+
+.tabcontent .isru .vktel a:first-child {
+    margin-right: 20px;
+    margin-right: 1rem
+}
+
+.tabcontent .download {
+    margin-top: 60px;
+    margin-top: 3rem;
+    margin-left: -25px;
+    margin-right: -15px
+}
+
+.tabcontent .download.en {
+    margin-left: 0;
+    padding-left: 5%
+}
+
+.tabcontent .download.en .btn.btn-win {
+    margin-right: 3rem;
+    padding: 14px 50px
+}
+
+.tabcontent .download.ru {
+    margin-left: -1%
+}
+
+.tabcontent .download.ru .btn {
+    padding: 14px 30px;
+    line-height: 20px;
+    line-height: 1rem
+}
+
+.tabcontent .download.ru .btn.btn-others {
+    padding: 11px 36px
+}
+
+.tabcontent .download.ru .btn > i {
+    font-size: 32px;
+    font-size: 1.6rem;
+    position: relative;
+    top: -6px;
+    top: -.3rem;
+    display: inline-block;
+    margin-right: 10px;
+    margin-right: .5rem
+}
+
+.tabcontent .download.ru .btn img {
+    width: 40px;
+    width: 2rem;
+    height: 36px;
+    height: 1.6rem;
+    top: -10px;
+    top: -.5rem
+}
+
+.tabcontent .download.ru .btn > span > strong {
+    display: block;
+    font-size: 10px;
+    font-size: .5rem;
+    font-weight: 400
+}
+
+.tabcontent .download.ru .btn > span span {
+    font-size: 20px;
+    font-size: 1rem;
+    display: block
+}
+
+.tabcontent .download.ru .btn.btn-down {
+    width: 60%;
+    min-width: 240px
+}
+
+.tabcontent .download .btn {
+    display: inline-block;
+    background: #fff;
+    background: linear-gradient(180deg, #fff, #eee);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffffff, endcolorstr=#eeeeee, gradientType=0);
+    color: #4853e3;
+    padding: 14px 20px;
+    margin-bottom:5px;
+}
+
+.tabcontent .download .btn span > span {
+    display: none
+}
+
+.tabcontent .download .btn.btn-win {
+    /*padding: 14px 40px;*/
+    margin-right: 10px;
+    /*margin-right: 1rem*/
+}
+
+.tabcontent .download .btn img {
+    width: 24px;
+    width: 1.2rem;
+    height: 24px;
+    height: 1.2rem;
+    position: relative;
+    top: -2px;
+    top: -.1rem
+}
+
+.imghide {
+    display: none
+}
+
+.main {
+    padding-top: 100px;
+    padding-top: 5rem;
+    background: #f2f7fb
+}
+
+.main.en .dexcItem:first-child .des-article {
+    padding-top: 2rem
+}
+
+.main .dexcItem {
+    margin-bottom: 100px;
+    margin-bottom: 5rem
+}
+
+.main .dexcItem .des-icon {
+    text-align: center;
+    position: relative
+}
+
+.main .dexcItem .des-icon img {
+    width: 80%;
+    max-width: 550px
+}
+
+.main .dexcItem .des-article {
+    position: relative;
+    padding-top: 80px;
+    padding-top: 4rem;
+    padding-left: 40px;
+    padding-left: 2rem
+}
+
+.main .dexcItem .des-article img {
+    width: 40px;
+    width: 2rem;
+    height: 40px;
+    height: 2rem;
+    margin-right: 10px;
+    margin-right: .5rem;
+    vertical-align: text-bottom
+}
+
+.main .dexcItem .des-article h3 {
+    font-weight: 400;
+    font-size: 24px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-bottom: 1rem
+}
+
+.main .dexcItem .des-article h3 span {
+    position: relative;
+    top: -6px;
+    top: -.3rem
+}
+
+.main .dexcItem .des-article h3.en {
+    font-size: 26px;
+    font-size: 1.3rem
+}
+
+.main .dexcItem .des-article h3.en span {
+    top: -2px;
+    top: -.1rem
+}
+
+.main .dexcItem .des-article h3.ru span {
+    width: 80%;
+    display: inline-block
+}
+
+.main .dexcItem .des-article h3.ru img {
+    position: relative;
+    top: -10px;
+    top: -.5rem
+}
+
+.main .dexcItem .des-article p {
+    max-width: 80%;
+    padding-right: 20px;
+    padding-right: 1rem;
+    font-size: 13px;
+    font-size: .65rem;
+    line-height: 26px;
+    line-height: 1.3rem;
+    opacity: .8;
+    filter: alpha(opacity=80)
+}
+
+.main .dexcItem .des-article p.en {
+    font-size: 16px;
+    font-size: .8rem;
+    max-width: 90%;
+    padding-right: 0;
+    line-height: 36px;
+    line-height: 1.8rem
+}
+
+.main .dexcItem .des-article p.ru {
+    max-width: 100%
+}
+
+.trial {
+    text-align: center;
+    font-size: 36px;
+    font-size: 1.8rem;
+    margin-top: 80px;
+    margin-top: 4rem;
+    margin-bottom: 86px;
+    margin-bottom: 4.3rem
+}
+
+.download-bot {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 1rem
+}
+
+.download-bot img {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-bottom: 1rem
+}
+
+.download-bot .btn {
+    display: block;
+    width: 65%;
+    max-width: 200px;
+    padding: 10px 0;
+    margin-bottom: 60px;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 19px;
+    font-size: .9rem;
+    background: #3980e8;
+    background: linear-gradient(180deg, #4aa4f4, #3980e8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#4aa4f4, endcolorstr=#3980e8, gradientType=0);
+    outline: none
+}
+
+.download-bot .btn.btn-down {
+    width: 65%;
+    padding: 16px 0;
+    margin: 5px auto;
+    font-weight: 700;
+    background: #3a8bf1;
+    background: linear-gradient(180deg, #4aa4f4, #3980e8);
+    box-shadow: 0 15px 25px 0 rgba(13, 5, 9, .2)
+}
+
+.product {
+    position: relative;
+    text-align: center
+}
+
+.product h2 {
+    font-size: 36px;
+    font-size: 1.8rem;
+    margin-top: 80px;
+    margin-top: 4rem;
+    margin-bottom: 86px;
+    margin-bottom: 4.3rem
+}
+
+.product h2.en {
+    font-weight: 700
+}
+
+.product .athird {
+    float: left;
+    width: 33.33%;
+    padding: 0 5.2%
+}
+
+.product .evaluation {
+    width: 65%;
+    margin: 0 auto;
+    max-width: 1060px;
+    min-width: 300px;
+    position: relative
+}
+
+.product .evaluation p {
+    text-align: center;
+    font-size: 16px;
+    font-size: .8rem;
+    color: #747d87;
+    line-height: 36px;
+    line-height: 1.8rem;
+    margin-bottom: 60px;
+    margin-bottom: 3rem;
+    padding: 0 20px;
+    padding: 0 1rem;
+    height: 80px;
+    height: 4rem
+}
+
+.product .evaluation .evaimg {
+    width: 86%;
+    margin: 0 auto;
+    max-width: 1350px;
+    min-width: 300px
+}
+
+.product .evaluation .evaimg ul {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    overflow: visible
+}
+
+.product .evaluation .evaimg ul .carousel-control {
+    background: none;
+    color: #d1dce4;
+    position: absolute;
+    z-index: 9;
+    width: 5%;
+    height: 40px;
+    height: 2rem;
+    top: 24px;
+    top: 1.2rem
+}
+
+.product .evaluation .evaimg ul .carousel-control:hover {
+    color: #a5afb7
+}
+
+.product .evaluation .evaimg ul .carousel-control:active {
+    text-decoration: none
+}
+
+.product .evaluation .evaimg ul .carleft {
+    left: -5%
+}
+
+.product .evaluation .evaimg ul .carright {
+    left: 100%
+}
+
+.product .evaluation .evaimg ul .ulshow {
+    width: 100%;
+    overflow-x: hidden
+}
+
+.product .evaluation .evaimg ul .imglist {
+    width: 1000%;
+    position: relative;
+    margin: 0 auto;
+    height: 26px;
+    height: 13rem
+}
+
+.product .evaluation .evaimg ul .imglist li {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    float: left;
+    width: 2%;
+    text-align: center;
+    padding-top: .2%
+}
+
+.product .evaluation .evaimg ul .imglist li img {
+    width: 50%;
+    height: auto
+}
+
+.product .evaluation .evaimg ul .imglist li .carousel-caption {
+    display: none;
+    color: #fff
+}
+
+.product .evaluation .evaimg ul .imglist li.active {
+    padding-top: 0
+}
+
+.product .evaluation .evaimg ul .imglist li.active img {
+    width: 70%;
+    height: auto
+}
+
+.product .evaluation .evaimg ul .imglist li.active .carousel-caption {
+    bottom: 55px;
+    padding-top: 0;
+    width: 10%;
+    left: 0;
+    right: 0
+}
+
+.product .evaluation .evaimg ul .imglist li.active h5, .product .evaluation .evaimg ul .imglist li.active span {
+    text-align: center;
+    text-shadow: none;
+    width: 100%
+}
+
+.product .evaluation .evaimg ul .imglist li.active h5 {
+    font-size: 18px;
+    font-size: .9rem;
+    color: #000
+}
+
+.product .evaluation .evaimg ul .imglist li.active span {
+    color: #747d87;
+    font-size: 10px;
+    font-size: .5rem;
+    display: block
+}
+
+.bodycolor {
+    background: #f2f7fb
+}
+
+@media screen and (min-width: 1600px) {
+    .main {
+        min-height: 38rem
+    }
+
+    .tabcontent .download {
+        margin-left: -10px
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .main {
+        min-height: 70rem
+    }
+
+    .main .dexcItem .des-article h3 {
+        font-size: 1.3rem
+    }
+
+    .main .dexcItem .des-article h3.ru span {
+        width: 85%
+    }
+
+    .main .dexcItem .des-article p {
+        font-size: .85rem;
+        line-height: 1.5rem
+    }
+
+    .main .dexcItem .des-article p.en {
+        line-height: 24px;
+        line-height: 1.2rem
+    }
+
+    .tabcontent .download {
+        margin-left: -15px
+    }
+
+    .tabcontent h1.en {
+        font-size: 1.8rem;
+        letter-spacing: 0
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .invite_code{
+        width: 35%;
+    }
+    .main {
+        min-height: 38rem
+    }
+
+    .tabcontent h1.en {
+        font-size: 1.85rem;
+        margin-right: -1rem;
+        margin-left: 0
+    }
+
+    .tabcontent h1.ru {
+        margin-right: -2rem
+    }
+
+    .tabcontent .circle.ru {
+        margin-left: -1rem
+    }
+
+    .tabcontent .download.ru {
+        margin-left: -5%
+    }
+
+    .tabcontent .download.en .btn {
+        font-size: 18px
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .invite_code{
+        width: 100%;
+    }
+    .tabcontent .isru {
+        top: 0
+    }
+
+    .tabcontent .download {
+        width: 80%
+    }
+
+    .tabcontent .download.en .btn.btn-win {
+        margin: 0 auto
+    }
+
+    .tabcontent .download .btn, .tabcontent .download.ru .btn {
+        padding: 14px 0;
+        width: 80%;
+        text-align: center
+    }
+
+    .tabcontent .download .btn.btn-down, .tabcontent .download .btn.btn-win, .tabcontent .download.ru .btn.btn-down, .tabcontent .download.ru .btn.btn-win {
+        margin: 5px auto
+    }
+
+    .tabcontent .download .btn.btn-others, .tabcontent .download.ru .btn.btn-others {
+        background: none !important;
+        margin: .2rem auto;
+        padding: 0;
+        box-shadow: none;
+        display: block;
+        width: 90%
+    }
+
+    .tabcontent .download .btn.btn-others span, .tabcontent .download.ru .btn.btn-others span {
+        color: #fff;
+        font-size: .7rem
+    }
+
+    .tabcontent .download .btn.btn-others img, .tabcontent .download.ru .btn.btn-others img {
+        width: .8rem;
+        margin-left: .5rem;
+        top: 0
+    }
+
+    .tabcontent .download .btn.btn-others:hover, .tabcontent .download.ru .btn.btn-others:hover {
+        box-shadow: none
+    }
+
+    .tabcontent .download.ru .btn {
+        padding: .5rem 1.5rem
+    }
+
+    .tabcontent .download.ru .btn > i {
+        top: 0
+    }
+
+    .download-bot .btn.btn-down {
+        color: #fff
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+    .tabcontent h1.en {
+        font-size: 1.66rem
+    }
+
+    .tabcontent h1.ru {
+        font-size: 1.7rem;
+        margin-right: -1.2rem;
+        margin-left: -1.5rem
+    }
+
+    .tabcontent .circle.en li {
+        margin-left: .3rem;
+        margin-right: .5rem
+    }
+
+    .tabcontent .download {
+        margin-left: -25px
+    }
+
+    .tabcontent .download.en {
+        margin-left: 0;
+        padding-left: 0
+    }
+
+    .tabcontent .download.en .btn.btn-win {
+        margin-right: 1rem
+    }
+
+    .tabcontent .download.ru .btn.btn-others {
+        padding: 11px 30px
+    }
+
+    .main {
+        min-height: 38rem
+    }
+
+    .main .tabcontent h1 {
+        font-size: 1.8rem
+    }
+
+    .main .tabcontent h2 {
+        font-size: .95rem
+    }
+
+    .main.ru .dexcItem .des-article h3 span {
+        width: 88%;
+        display: inline-block
+    }
+
+    .main.ru .dexcItem .des-article h3 img {
+        position: relative;
+        top: -.5rem
+    }
+
+    .main.ru .dexcItem .des-article h3.ru img {
+        top: -1.2rem
+    }
+
+    .main .dexcItem .des-article p.en {
+        max-width: 100%
+    }
+
+    .main .dexcItem .des-article h3.en {
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+    .tabcontent h1 {
+        font-size: 2.1rem
+    }
+
+    .tabcontent h1.en {
+        font-size: 1.65rem
+    }
+
+    .tabcontent h1.ru {
+        margin-left: -2.5rem;
+        font-size: 1.7rem;
+        margin-right: -1rem
+    }
+
+    .tabcontent h2 {
+        font-size: .95rem
+    }
+
+    .tabcontent .download.en {
+        padding-left: 0
+    }
+
+    .tabcontent .download.en .btn.btn-win {
+        margin-right: 1rem
+    }
+
+    .tabcontent .download.ru {
+        margin-left: -2rem
+    }
+
+    .tabcontent .circle.en li {
+        margin-left: .5rem;
+        margin-right: .5rem
+    }
+
+    .main {
+        height: 50%;
+        min-height: 38rem
+    }
+
+    .main.ru .dexcItem .des-article h3 span {
+        width: 85%;
+        display: inline-block
+    }
+
+    .main.ru .dexcItem .des-article h3 img {
+        position: relative;
+        top: -.8rem
+    }
+
+    .main.ru .dexcItem .des-article h3.ru img {
+        top: -1.2rem
+    }
+
+    .main .dexcItem .des-article {
+        padding-top: 2rem
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .tabcontent {
+        padding-left: 2rem
+    }
+
+    .tabcontent h1 {
+        font-size: 2rem
+    }
+
+    .tabcontent h1.tw {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        font-size: 1.8rem
+    }
+
+    .tabcontent h1.en {
+        font-size: 1.36rem;
+        margin-right: -15px
+    }
+
+    .tabcontent h1.ru {
+        margin-left: -.5rem;
+        margin-right: -2rem;
+        font-size: 1.4rem
+    }
+
+    .tabcontent .circle li {
+        margin-right: .5rem
+    }
+
+    .tabcontent .download {
+        margin-right: 0
+    }
+
+    .tabcontent .download.ru {
+        margin-left: 0
+    }
+
+    .tabcontent .download.ru .btn {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .tabcontent .download.en {
+        padding-left: 0
+    }
+
+    .tabcontent .circle.en {
+        margin-left: 0
+    }
+
+    .tabcontent .circle.en li {
+        margin-right: .15rem;
+        margin-left: .05rem
+    }
+
+    .tabcontent .circle.ru li {
+        width: 6.3rem;
+        height: 6.3rem;
+        margin-right: .3rem
+    }
+
+    .main {
+        height: 60%;
+        min-height: 38rem
+    }
+
+    .main.ru .dexcItem .des-article h3 span {
+        width: 84%;
+        display: inline-block
+    }
+
+    .main.ru .dexcItem .des-article h3 img {
+        position: relative;
+        top: -.8rem
+    }
+
+    .main.ru .dexcItem .des-article h3.ru img {
+        top: -1.2rem
+    }
+
+    .main .dexcItem .des-article {
+        padding-top: 2rem
+    }
+
+    .main.en .dexcItem:first-child .des-article {
+        padding-top: 0
+    }
+
+    .main.en .dexcItem .des-article {
+        padding-left: 1rem
+    }
+
+    .main.en .dexcItem .des-article img {
+        width: 1.8rem;
+        height: 1.8rem
+    }
+
+    .main.en .dexcItem .des-article h3 span {
+        font-size: 1rem
+    }
+
+    .main.en .dexcItem .des-article p {
+        margin-right: -15px;
+        max-width: 100%;
+        line-height: 1.5rem
+    }
+
+    .footer {
+        margin-top: 2rem
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tabcontent {
+        margin-top: 0;
+        height: 25rem;
+        padding-top: 2.5rem
+    }
+
+    .tabcontent, .tabcontent.en {
+        padding-left: 0
+    }
+
+    .tabcontent h1 {
+        font-size: 1.55rem;
+        letter-spacing: .1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-left: 0
+    }
+
+    .tabcontent h1.tw {
+        font-size: 1.5rem;
+        margin-left: 0
+    }
+
+    .tabcontent h1.en {
+        font-size: 1.3rem
+    }
+
+    .tabcontent h1.ru {
+        margin-left: 0;
+        font-size: 1.2rem
+    }
+
+    .tabcontent .appShow {
+        height: 16rem;
+        -webkit-transform: translateX(-.5rem);
+        transform: translateX(-.5rem)
+    }
+
+    .tabcontent .appShow > svg {
+        width: 100%;
+        height: 100%
+    }
+
+    .tabcontent .isru > img {
+        width: 60%;
+        min-width: 280px
+    }
+
+    .tabcontent .isru h3 {
+        font-size: 1rem
+    }
+
+    .tabcontent .isru .vktel a {
+        font-size: .8rem
+    }
+
+    .tabcontent .download {
+        margin: 1rem 0;
+        width: 100%
+    }
+
+    .tabcontent .download.en {
+        margin-left: 0;
+        padding-left: 0
+    }
+
+    .tabcontent .download.en .btn.btn-win {
+        padding: 0;
+        margin: 0 auto
+    }
+
+    .tabcontent .download.ru .btn {
+        line-height: 1.5
+    }
+
+    .tabcontent .download.ru .btn.btn-win {
+        padding: .5rem 1.5rem
+    }
+
+    .tabcontent .download .btn {
+        width: 65%;
+        max-width: 300px;
+        padding: 0;
+        margin: 0 auto;
+        color: #464de7;
+        font-weight: 700;
+        height: 2.8rem;
+        line-height: 2.8rem
+    }
+
+    .tabcontent .download .btn.btn-win {
+        padding: 0;
+        margin: 0 auto
+    }
+
+    .tabcontent .circle {
+        margin: 0 auto
+    }
+
+    .tabcontent .circle.ru {
+        margin-left: 0
+    }
+
+    .tabcontent .circle li {
+        border-radius: 0;
+        border: none;
+        margin: 0;
+        padding: 0;
+        height: auto;
+        font-size: .8rem;
+        width: 33%;
+        padding-top: 0 !important;
+        top: 0 !important
+    }
+
+    .tabcontent .circle li span {
+        top: 0 !important
+    }
+
+    .tabcontent .circle li strong {
+        font-size: 1.5rem !important
+    }
+
+    .tabcontent .circle li.en {
+        margin: 0 auto
+    }
+
+    .tabcontent .circle li.en li {
+        margin-right: 0;
+        margin-left: 0
+    }
+
+    .tabcontent .circle li.ru {
+        width: 33%;
+        height: auto
+    }
+
+    .tabcontent .circle li:first-child, .tabcontent .circle li:nth-child(2) {
+        border-right: 1px solid;
+        border-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .3), hsla(0, 0%, 100%, 0)) 0 1;
+        border-left: 0
+    }
+
+    .main {
+        padding-top: 5rem
+    }
+
+    .main.ru {
+        padding-top: 10rem
+    }
+
+    .main.en .dexcItem {
+        padding-right: 0
+    }
+
+    .main .dexcItem {
+        margin-bottom: 2.5rem
+    }
+
+    .main .dexcItem .des-article {
+        padding-top: 1rem;
+        text-align: center;
+        margin-bottom: 1.3rem;
+        padding-left: 0
+    }
+
+    .main .dexcItem .des-article img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0 auto;
+        margin-bottom: .8rem;
+        display: block
+    }
+
+    .main .dexcItem .des-article h3 {
+        font-size: .8rem
+    }
+
+    .main .dexcItem .des-article h3.ru span {
+        width: 100%
+    }
+
+    .main .dexcItem .des-article h3.en {
+        font-size: .77rem;
+        font-weight: 700
+    }
+
+    .main .dexcItem .des-article p {
+        max-width: 100%;
+        font-size: .6rem;
+        opacity: 1;
+        filter: alpha(opacity=100);
+        padding: 0;
+        margin: 0
+    }
+
+    .main .dexcItem .des-article p.en {
+        font-size: .6rem;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        line-height: 1rem
+    }
+
+    .product h2 {
+        font-size: 1.2rem;
+        margin-top: 1.6rem;
+        margin-bottom: 1rem
+    }
+
+    .product .evaluation p {
+        font-size: .6rem;
+        line-height: 1.2rem;
+        margin-bottom: 2rem;
+        height: 4.5rem;
+        padding: 0
+    }
+
+    .product .evaluation .evaimg ul .carousel-control {
+        top: .8rem;
+        width: 10%
+    }
+
+    .product .evaluation .evaimg ul .carleft {
+        left: -5%
+    }
+
+    .product .evaluation .evaimg ul .carright {
+        left: 95%
+    }
+
+    .product .evaluation .evaimg ul .imglist {
+        width: 3000%;
+        height: 10rem
+    }
+
+    .product .evaluation .evaimg ul .imglist li {
+        width: 1.11%;
+        padding-top: .1%
+    }
+
+    .product .evaluation .evaimg ul .imglist li.active .carousel-caption {
+        left: 0;
+        right: 0;
+        bottom: 30px;
+        width: 3.3%
+    }
+
+    .trial {
+        font-size: 1.5rem;
+        margin-bottom: 2rem
+    }
+
+    .footer {
+        margin-top: 1.5rem
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 420px) {
+    .tabcontent h1.en {
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape), screen and (min-width: 451px) and (max-width: 767px) {
+    .tabcontent h1 {
+        font-size: 2rem
+    }
+
+    .tabcontent h1.en {
+        font-size: 1.6rem
+    }
+
+    .main {
+        padding-top: 5rem
+    }
+
+    .main .dexcItem .des-icon img {
+        max-width: 500px
+    }
+
+    .main .dexcItem .des-article {
+        padding-right: 0
+    }
+
+    .main .dexcItem .des-article h3 {
+        font-size: 1rem
+    }
+
+    .main .dexcItem .des-article p {
+        font-size: .7rem;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        margin-right: auto;
+        margin-left: auto
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .tabcontent h1 {
+        font-size: 1.8rem
+    }
+
+    .tabcontent h1.en {
+        font-size: 1.1rem
+    }
+
+    .tabcontent h1.tw {
+        font-size: 1.3rem
+    }
+
+    .tabcontent .download.ru .btn {
+        line-height: 1.2
+    }
+
+    .product .evaluation .evaimg ul .carright {
+        left: 93%
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 450px) {
+    .tabcontent h1.en {
+        font-size: 1.1rem
+    }
+}
+
+.wxtip {
+    background: rgba(0, 0, 0, .8);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    display: none
+}
+
+.wxtip .wxtip-icon {
+    width: 80px;
+    height: 100px;
+    background: url(../images/weixin-tip.svg) no-repeat;
+    background-size: 100% auto;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -10px
+}
+
+.wxtip .wxtip-pc-txt, .wxtip .wxtip-txt {
+    margin-top: 146px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2
+}
+
+.wxtip .wxtip-pc-txt {
+    display: none
+}
+
+.wxtip.pc .wxtip-icon {
+    background: url(../images/weixin-tip.svg) no-repeat;
+    background-size: 100% auto;
+    left: 150px;
+    top: 20px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg)
+}
+
+.wxtip.pc .wxtip-txt {
+    display: none
+}
+
+.wxtip.pc .wxtip-pc-txt {
+    display: block
+}

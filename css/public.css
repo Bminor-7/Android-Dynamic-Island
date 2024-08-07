@@ -1,0 +1,552 @@
+body, html {
+    font-family: Helvetica, Charter, PingFang SC, Microsoft YaHei, Arial, sans-serif;
+    font-size: 20px;
+    width: 100%
+}
+
+li {
+    list-style: none
+}
+
+i {
+    font-style: normal
+}
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+a:active, a:hover, a:link, a:visited {
+    text-decoration: none;
+    background: none
+}
+
+.is_show_zh, .visible-az, .visible-ios, .visible-win {
+    display: none
+}
+
+.modalcenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+#wrapper, .modaliecenter {
+    margin: 0 auto
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    height: auto
+}
+
+.cont {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 300px
+}
+
+.headerbg {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 700px;
+    height: 35rem;
+    overflow-x: hidden
+}
+
+.headerbg .headershow {
+    width: 110%;
+    height: 95%;
+    -webkit-transform-origin: 0, 0;
+    transform-origin: 0, 0;
+    -webkit-transform: rotate(3deg) translate(-144px, -40px);
+    transform: rotate(3deg) translate(-144px, -40px);
+    -webkit-transform: rotate(3deg) translate(-7.7rem, -2rem);
+    transform: rotate(3deg) translate(-7.7rem, -2rem);
+    border-radius: 0 0 50px 0;
+    border-radius: 0 0 2.5rem 0;
+    box-shadow: 1px 1px 35px 15px rgba(81, 90, 229, .4);
+    filter: progid:DXImageTransform.Microsoft.Shadow(color="rgba(81,90,229,0.4)", Direction=125, Strength=9);
+    background: url(../images/headbg.png) no-repeat 100% 100%;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/headbg.png", sizingMethod="scale");
+    background: linear-gradient(120deg, #3150ed, #3150ed 30%, #682cdc 50%, #db38df 90%, #db38df);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#3150ed, endcolorstr=#db38df, gradientType=1)
+}
+
+.headerbg .reactinner {
+    width: 40%;
+    height: 520px;
+    height: 26rem
+}
+
+.headerbg .reactinner, .headerbg .reactout {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    border-radius: 2.5rem;
+    behavior: url(../assets/PIE-1.0.0/PIE.htc);
+    background: hsla(0, 0%, 100%, .05)
+}
+
+.headerbg .reactout {
+    width: 56%;
+    height: 360px;
+    height: 18rem
+}
+
+.topcont {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.topcont .col-sm-6:first-child {
+    padding-top: .1rem
+}
+
+.topcont span {
+    color: #fff;
+    font-size: 20px;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-left: .5rem
+}
+
+.topcont img {
+    width: 24px;
+    width: 1.2rem;
+    height: 24px;
+    height: 1.2rem;
+    position: relative;
+    top: -2px;
+    top: -.1rem
+}
+
+.topcont .nopadding {
+    padding-right: 0
+}
+
+.topcont .tab > li {
+    float: left;
+    padding: 5px 12px;
+    padding: .25rem .6rem;
+    margin: 0 10px;
+    margin: 0 .5rem;
+    font-size: 14px;
+    font-size: .7rem
+}
+
+.topcont .tab > li.loginin {
+    color: #f6f6f6;
+    border: 1px solid hsla(0, 0%, 100%, .15);
+    border-radius: 1rem;
+    position: relative;
+    top: -4px;
+    top: -.2rem
+}
+
+.topcont .tab > li.loginin:hover {
+    background: hsla(0, 0%, 100%, .15)
+}
+
+.topcont .tab > li.loginin img {
+    width: 16px;
+    width: .8rem
+}
+
+.topcont .tab > li > a, .topcont .tab > li button {
+    color: #c692e9;
+    border: none;
+    background: none;
+    outline: none
+}
+
+.topcont .tab > li > a:hover, .topcont .tab > li button:hover {
+    color: #fff;
+    cursor: pointer
+}
+
+.topcont .tab > li > a span, .topcont .tab > li button span {
+    color: #f6f6f6;
+    font-size: 14px;
+    font-size: .7rem;
+    font-weight: 400
+}
+
+.topcont .tab > li.liactive {
+    border: none;
+    background: hsla(0, 0%, 100%, .15);
+    border-radius: 1rem
+}
+
+.topcont .tab > li.liactive > a, .topcont .tab > li.liactive button {
+    border: none;
+    background: none;
+    color: #f6f6f6
+}
+
+.popover-content {
+    padding: 5px;
+    text-align: center;
+    width: 7rem
+}
+
+.popover-content img {
+    width: 120px !important;
+    width: 6rem !important;
+    height: 120px !important;
+    height: 6rem !important;
+    margin-bottom: 5px
+}
+
+.popover-content p {
+    color: #000;
+    font-size: 12px;
+    font-size: .6rem;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #eee
+}
+
+.popover-content i {
+    color: #999;
+    font-style: italic;
+    display: inline-block;
+    font-size: 12.5px;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    position: relative;
+    left: -12.5%;
+    width: 125%
+}
+
+@media screen and (min-width: 1600px) {
+    body, html {
+        font-size: 22px
+    }
+
+    .headerbg .headershow {
+        -webkit-transform: rotate(3deg) translate(-8.1rem, -2rem);
+        transform: rotate(3deg) translate(-8.1rem, -2rem)
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body, html {
+        width: 100%;
+        font-size: 24px
+    }
+
+    .topcont .tab > li .selectboxit-text {
+        font-size: .2rem;
+        margin-right: 0;
+        margin-left: 0
+    }
+
+    .tab {
+        padding-right: 0
+    }
+
+    .headerbg .headershow {
+        -webkit-transform: rotate(3deg) translate(-9.5%, -2.5rem);
+        transform: rotate(3deg) translate(-9.5%, -2.5rem)
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    body, html {
+        font-size: 19px
+    }
+
+    .headerbg .headershow {
+        -webkit-transform: rotate(3deg) translate(-7rem, -2rem);
+        transform: rotate(3deg) translate(-7rem, -2rem)
+    }
+
+    .topcont .tab {
+        padding: 0
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+    body, html {
+        font-size: 18px
+    }
+
+    .headerbg .headershow {
+        -webkit-transform: rotate(3deg) translate(-6.5rem, -2rem);
+        transform: rotate(3deg) translate(-6.5rem, -2rem)
+    }
+
+    .topcont .tab {
+        padding: 0
+    }
+
+    .topcont .tab > li {
+        margin: 0 .2rem
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+    body, html {
+        font-size: 17px
+    }
+
+    .headerbg .headershow {
+        -webkit-transform: rotate(3deg) translate(-6rem, -2rem);
+        transform: rotate(3deg) translate(-6rem, -2rem)
+    }
+
+    .topcont .tab {
+        padding: 0
+    }
+
+    .topcont .tab > li {
+        font-size: .85rem;
+        margin: 0 .2rem
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    body, html {
+        font-size: 17px
+    }
+
+    .headerbg .headershow {
+        -webkit-transform: rotate(3deg) translate(-5.3rem, -1.8rem);
+        transform: rotate(3deg) translate(-5.3rem, -1.8rem)
+    }
+
+    .topcont .tab {
+        padding: 0
+    }
+
+    .topcont .tab.ru > li {
+        margin: 0;
+        padding: .25rem .3rem
+    }
+
+    .topcont .tab > li {
+        margin: 0 .2rem;
+        font-size: .75rem
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #wrapper, body, html {
+        font-size: 20px;
+        min-width: 320px;
+        margin: 0;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch
+    }
+
+    .bodyheight {
+        height: 100%;
+        background: linear-gradient(90deg, #4656eb, #a721df)
+    }
+
+    .headerbg.ru {
+        height: 40rem
+    }
+
+    .headerbg .headershow {
+        -webkit-transform: rotate(3deg) translate(-10%, -2rem);
+        transform: rotate(3deg) translate(-10%, -2rem);
+        background: url(../images/headbg.png) no-repeat 0 0;
+        background-size: 100% 100%;
+        background: linear-gradient(120deg, #3150ed, #3150ed 30%, #682cdc 50%, #db38df 90%, #db38df);
+        filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#3150ed, endcolorstr=#db38df, gradientType=1);
+        box-shadow: 1px 1px 18px 8px rgba(81, 90, 229, .2);
+        filter: progid:DXImageTransform.Microsoft.Shadow(color="rgba(81,90,229,0.2)", Direction=125, Strength=9)
+    }
+
+    .headerbg .headershow .reactout {
+        width: 60%;
+        height: 20rem
+    }
+
+    .headerbg .headershow .reactinner {
+        width: 50%;
+        height: 15rem
+    }
+
+    .topcont.fixtopstyle {
+        width: 100%;
+        color: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #fff;
+        padding: 1rem 5%;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .05);
+        filter: progid:DXImageTransform.Microsoft.Shadow(color="rgba(0,0,0,0.05)", Direction=125, Strength=9)
+    }
+
+    .topcont.fixtopstyle .nav > button, .topcont.fixtopstyle span {
+        color: #000
+    }
+
+    .topcont span {
+        font-size: 1rem;
+        top: .2rem
+    }
+
+    .topcont img {
+        width: 1.2rem;
+        height: 1.2rem
+    }
+
+    #wrapper.dropmenu {
+        min-height: 100%;
+        position: absolute;
+        z-index: 0
+    }
+
+    #wrapper.dropmenu .nav {
+        position: static
+    }
+
+    #wrapper.dropmenu .nav > button {
+        position: absolute;
+        right: 15px;
+        top: .4rem;
+        z-index: 99999
+    }
+
+    #wrapper.dropmenu .nav > button i:first-child {
+        display: none
+    }
+
+    #wrapper.dropmenu .nav > button i:nth-child(2) {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 700
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu {
+        border: none;
+        min-height: 100%;
+        top: -1px;
+        position: absolute;
+        padding-top: 4rem;
+        box-shadow: none;
+        width: 100%;
+        z-index: 9999;
+        background: none
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .tab li.liactive {
+        background: none
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .btn {
+        display: block;
+        width: 65%;
+        max-width: 300px;
+        padding: .8rem 0;
+        margin: 1.5rem auto;
+        border-radius: 2rem;
+        color: #464de7;
+        font-weight: 700;
+        background: #fff;
+        border: none;
+        font-size: .9rem;
+        background: linear-gradient(180deg, #fff, #eee);
+        filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffffff, endcolorstr=#eeeeee, gradientType=0);
+        box-shadow: 0 15px 25px 0 rgba(13, 5, 9, .2);
+        filter: progid:DXImageTransform.Microsoft.Shadow(color="rgba(13,5,9,0.2)", Direction=125, Strength=9)
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .btn i {
+        font-size: 1.2rem
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .btn span {
+        color: #464de7
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .tab {
+        padding-left: 0;
+        padding-top: 0
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .tab li {
+        float: none;
+        text-align: center;
+        padding: 8% 0;
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+        opacity: .9;
+        filter: alpha(opacity=90)
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .tab li:active, #wrapper.dropmenu .nav .dropdown-menu .tab li:hover {
+        background: none
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .tab li a {
+        font-weight: 700;
+        color: #fff
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .tab li.liactive {
+        border: none
+    }
+
+    #wrapper.dropmenu .nav .dropdown-menu .tab li.liactive a {
+        border-bottom: 1px solid #c692e9;
+        display: inline-block;
+        padding: .5rem .2rem
+    }
+
+    .fixtop {
+        position: absolute;
+        left: 5%;
+        top: 0;
+        z-index: 99
+    }
+
+    .nav > button {
+        color: #fff;
+        outline: none;
+        border: none;
+        background: none
+    }
+
+    .nav > button i:nth-child(2) {
+        display: none
+    }
+}
+
+@media screen and (max-width: 359px) {
+    body, html {
+        font-size: 18px
+    }
+
+    #wrapper .row {
+        margin: 0 auto
+    }
+
+    .fixtop {
+        left: 0
+    }
+
+    .dropdown.open > .dropdown-menu {
+        left: 2.5%
+    }
+
+    .nav {
+        padding: 0
+    }
+}
