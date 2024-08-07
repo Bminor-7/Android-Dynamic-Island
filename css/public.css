@@ -347,7 +347,6 @@ a:active, a:hover, a:link, a:visited {
         font-size: 20px;
         min-width: 320px;
         margin: 0;
-        overflow-x: auto;
         -webkit-overflow-scrolling: touch
     }
 
