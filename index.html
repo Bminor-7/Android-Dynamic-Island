@@ -1,13 +1,248 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Landing Page</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    
+    <meta property="og:type" content="website">
+    
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+
+    <title>灵动岛-通知组件</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font.css" rel="stylesheet">
+    <link href="css/public.css" rel="stylesheet">
+    <link href="css/footer_modal.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
 </head>
+
+<style>
+    .download_list {
+        width: 100px;
+        background: linear-gradient(180deg, #fff, #eee);
+        position: absolute;
+        color: #4853e3;
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 15px 25px 0 rgb(13 5 9 / 20%);
+        border-radius: 8px;
+        margin-top: 1px;
+    }
+
+    .download_list a {
+        color: #4853e3;
+        display: block;
+        line-height: 35px;
+    }
+
+    .download_list_pc {
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        background: white;
+        text-align: center;
+    }
+
+    .download_list_pc a {
+        color: #4853e3;
+        display: block;
+        line-height: 50px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .headerbg .headershow {
+        background: linear-gradient(120deg, #316bed, #3189ed 30%, #2ca2dc 50%, #38acdf 90%, #388ddf);
+    }
+
+    .tabcontent .download .btn {
+        color: #3a9ae6;
+    }
+
+    .download_list a {
+        color: #3a9ae6;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .dropdown {
+        display: block !important;
+    }
+
+    .ritem2 {
+        position: fixed;
+        right: 35px;
+        top: 80px;
+        z-index: 1000;
+        color: #333;
+        text-decoration: underline;
+        border-radius: 5px;
+        background-color: white !important;
+        font-size: 16px;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+
+    .ritem {
+        position: fixed;
+        right: 35px;
+        z-index: 1000;
+        color: #333;
+        color: #333;
+        text-decoration: underline;
+        border-radius: 5px;
+        background-color: white !important;
+        font-size: 16px;
+        padding: 10px 20px;
+        font-weight: 500;
+    }
+
+    @media screen and (max-width: 760px) {
+
+        .ritem2 {
+            position: fixed;
+            right: 20px;
+            top: 45px;
+            z-index: 1000;
+            color: #333;
+            text-decoration: underline;
+            border-radius: 5px;
+            background-color: white !important;
+            font-size: 16px;
+            padding: 5px 10px;
+            font-weight: 500;
+        }
+
+        .ritem {
+            position: fixed;
+            right: 20px;
+            top: 5px;
+            z-index: 1000;
+            color: #333;
+            color: #333;
+            text-decoration: underline;
+            border-radius: 5px;
+            background-color: white !important;
+            font-size: 16px;
+            padding: 5px 10px;
+            font-weight: 500;
+        }
+
+    }
+
+    .xinfo {
+        font-size: 12px;
+    }
+
+    #tg {
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #tg img {
+        max-width: 886px;
+        width: 100%;
+    }
+</style>
+
 <body>
-    <a href="https://github.com/Bminor-7/Android-Dynamic-Island/releases/download/Dynamic_Island_v101/Dynamic.Island_v101.apk">点击下载</a>
-    <!-- 添加你的内容 -->
+    <div itemscope="" itemtype="http://schema.org/SoftwareApplication" id="wrapper">
+        <div class="headerbg rushow">
+            <div class="headershow">
+                <div class="reactout"></div>
+                <div class="reactinner"></div>
+            </div>
+        </div>
+        <header class="topcont cont fixtop">
+            <div class="row">
+                <div class="col-xs-9 col-sm-4">
+                    <a class="refresh logo" href="">
+                        <img class="fiximg" src="./ic_logo.png" alt="灵动岛-通知组件">
+                        <span data-i18n="index.public.name">灵动岛-通知组件</span>
+                    </a>
+                </div>
+                <div class="col-sm-8 hidden-xs nopadding"></div>
+                <div class="col-xs-3 visible-xs text-right nav dropdown">
+                    <a href="" class="ritem"> 关于 </a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+<div class="tabhome">
+        <div class="tabmain">
+            <div class="tabcontent enshow cont">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 titleshow">
+                        <h1 class="enshow twshow rushow"> 全新体验的灵动岛</h1>
+                        <div class="row circle clearfix enshow rushow">
+                            <li class="enshow rushow">
+                                <strong></strong>丝滑<span>动画体验</span>
+                            </li>
+                            <li class="enshow rushow">
+                                <strong></strong>永久<span>免费使用</span>
+                            </li>
+		<li class="enshow rushow">
+                                <strong></strong>多种场景<span>适配支持</span>
+                            </li>
+                           
+                        </div>
+                        <div class="download enshow rushow">
+                            <section class="clearfix">
+                                <a class="btn hidden-xs hidden-sm pstfg btn-others" href="https://github.com/Bminor-7/Android-Dynamic-Island/releases/download/Dynamic_Island_v101/Dynamic.Island_v101.apk" id="download_apk1">
+                                    <img src="./android.png" alt="安卓版下载">
+                                    <span>
+                                        <strong>安卓版下载</strong>
+                                        <span class="rushow">android</span>
+                                    </span>
+                                </a>
+                                
+                                <a class="btn btn-down btn-az visible-az pstfg hidden-md hidden-lg" href="https://github.com/Bminor-7/Android-Dynamic-Island/releases/download/Dynamic_Island_v101/Dynamic.Island_v101.apk" style="display: block;" id="download_apk2">
+                                    <img src="./android.png" alt="安卓版下载">
+                                    <span>安卓版下载</span>
+                                </a>
+                            </section>
+                        </div>
+                        <div id="invite_code_div" style="margin-top: 15px; display: none;">
+                            <div class="invite_code" style="display: block;width: 60%; text-align: center; margin: 0px auto 0.3em; color: rgb(253, 253, 253); font-size: 14px; padding: 5px 0px; border: 3px solid; border-radius: 10px;">
+                                <span>邀请码：JKKAGG</span>
+                            </div>
+                            <div class="invite_code_msg" style="margin: 10px 0 0 0; border: 3px solid yellow; border-radius: 10px; text-align: center; font-size: 14px; font-weight: bold; color: rgb(78, 173, 193);background: yellow; padding: 3px 5px;">
+                                邀请朋友注册时，请通知他输入此邀请码，双方都可延长1个月套餐有效期，并且您本人套餐提速5%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="appShow isnoru">
+                            <img class="" src="./header_img.png" width="100%" height="100%" style="display: block;" alt="白鲸加速器">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main enshow rushow">
+            
+        </div>
+        
+        
+    </div>
 </body>
+
 </html>
