@@ -36,6 +36,23 @@
   gtag('config', 'AW-16623953123');
 </script>
 
+<!-- Event snippet for 下载 conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16623953123/fIc3CIjf6MgZEOPJ9fY9',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
 <style>
     .download_list {
         width: 100px;
@@ -247,11 +264,22 @@
             </div>
         </div>
         <div class="main enshow rushow">
-            
         </div>
-        
-        
     </div>
+	
+<script>
+document.getElementById('download_apk1').addEventListener('click', function(event) {
+    // 你的代码
+    gtag_report_conversion("https://github.com/Bminor-7/Android-Dynamic-Island/releases/download/Dynamic_Island_v101/Dynamic.Island_v101.apk");
+});
+</script>
+
+<script>
+document.getElementById('download_apk2').addEventListener('click', function(event) {
+    // 你的代码
+    gtag_report_conversion("https://github.com/Bminor-7/Android-Dynamic-Island/releases/download/Dynamic_Island_v101/Dynamic.Island_v101.apk");
+});
+</script>
 </body>
 
 </html>
